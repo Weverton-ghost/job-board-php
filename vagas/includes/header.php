@@ -16,5 +16,5 @@
 
       <div class="jumbotron bg-danger">
         <h1>WDEV Vagas</h1>
-        <p>CRUD de vagas com PHP orientados a objetos e PDO Mysql</p>
+        <p>CRUD de vagas com PHP orientado a objetos e PDO Mysql</p>
       </div>
