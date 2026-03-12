@@ -2,7 +2,10 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-echo "<pre>"; print_r($_POST); echo "<pre>"; exit;
+//Validação do post
+if(isset($_POST['titulo'], $_POST['descricao'], $_POST['ativo'])){
+    die('Cadastrar');
+}
 
 include __DIR__ . '/vagas/includes/header.php';
 include __DIR__ . '/vagas/includes/formulario.php';
